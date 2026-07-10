@@ -1,0 +1,23 @@
+FoLogic-fw-keil Authors
+=======================
+
+Original DSLogic-fw-keil
+------------------------
+
+- DreamSourceLab <support@dreamsourcelab.com>
+
+
+FoLogic-fw-keil (Derivative Work)
+----------------------------------
+
+- the fool - Porting, modifications and enhancements
+
+
+Acknowledgments
+---------------
+
+This project is a derivative of DreamSourceLab's DSLogic-fw-keil, 
+which is part of the DSLogic open-source logic analyzer project.
+
+See also the git history and/or ChangeLog for a full list of contributors.
+

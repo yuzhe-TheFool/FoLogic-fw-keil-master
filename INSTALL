@@ -1,0 +1,31 @@
+FoLogic-fw-keil - Installation Guide
+=====================================
+
+FoLogic-fw is a project based on the Keil C51 IDE. 
+
+Prerequisites
+-------------
+
+- [Keil C51](https://www.keil.com/c51/) (uVision IDE)
+- Cypress EZ-USB FX2LP development tools
+
+Build Steps
+-----------
+
+1. Launch Keil uVision
+2. Open `FoLogic.uvproj` from the project root directory
+3. Select **Project → Build Target** (or press F7)
+4. After successful compilation, the output files will be found in the `Output/` directory:
+   - `FoLogic.fw`    - Firmware image for Cypress FX2
+   - `FoLogic.iic`   - I2C EEPROM image for boot loading
+   - `FoLogic.hex`   - Intel HEX format
+
+Programming
+-----------
+
+Use a Cypress FX2 programming tool (such as CyConsole or Cypress Suite USB) 
+to download the firmware to the device.
+
+- **RAM loading:** Load `FoLogic.fw` directly into the FX2 RAM via USB.
+- **EEPROM burning:** Write `FoLogic.iic` to an I2C EEPROM for 
+  stand-alone boot (the FX2 will auto-load from EEPROM on power-up).

@@ -1,0 +1,17 @@
+1.0 (2014-07-21)
+------------------
+
+ * Initial DSLogic release by DreamSourceLab.
+
+
+FoLogic 1.0 (2026-07-10)
+-------------------------
+
+ * Forked from DSLogic-fw-keil and rebranded to FoLogic
+ * Adapted for FoLogic 16-channel 200MHz logic analyzer platform
+ * Updated USB descriptor for FoLogic hardware (VID/PID)
+ * Enhanced GPIF waveform definitions for FPGA interface
+ * Added new command support for DDR3 buffer mode and stream mode
+ * License upgraded to GPL v3
+ * the fool - Porting, modifications and enhancements
+
