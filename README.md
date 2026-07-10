@@ -56,6 +56,13 @@ The firmware consists of the following source files:
 | **Interface**     | GPIF FIFO (30MHz, 16-bit)                           |
 | **USB Speed**     | USB 2.0 High-Speed (480Mbps, ~40MB/s effective)    |
 
+## Related Repositories
+
+| Repository | Description |
+|------------|-------------|
+| [logic_gowin_pro](https://github.com/yuzhe-TheFool/logic_gowin_pro) | FPGA HDL source code (Gowin GW2A-18) |
+| [pulseview](https://github.com/yuzhe-TheFool/pulseview) | Host software for waveform display, protocol decoding ([Releases](https://github.com/yuzhe-TheFool/pulseview/releases/tag/tag1)) |
+
 ## License
 
 FoLogic-firmware is licensed under the **GNU General Public License v3 or later** (GPL-3.0-or-later).
@@ -69,4 +76,4 @@ by DreamSourceLab, which is licensed under GPL v2 or later.
 
 - [DreamSourceLab/DSLogic-fw-keil](https://github.com/DreamSourceLab/DSLogic-fw-keil) — Original reference project
 - [DreamSourceLab/DSLogic-hdl](https://github.com/DreamSourceLab/DSLogic-hdl) — Reference FPGA HDL design
-- [sigrok/PulseView](https://sigrok.org/wiki/Main_Page) — Host software for waveform display and protocol decoding
+- [sigrok/PulseView](https://sigrok.org/wiki/Main_Page) — Upstream host software
